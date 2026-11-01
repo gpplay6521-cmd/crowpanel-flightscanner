@@ -1,0 +1,20 @@
+# PlatformIO build output and downloaded libraries
+.pio/
+.vscode/
+
+# Your own settings. These hold Wi-Fi credentials and where you are, so they never get committed:
+#   secrets.h       Wi-Fi name and password (copy secrets.example.h)
+#   user_config.h   radar position, time zone, reference airport (made by tools/set_location.py)
+#   map_local.inc   map around that position (made by tools/set_location.py)
+include/secrets.h
+include/user_config.h
+include/map_local.inc
+
+# OpenStreetMap download cache of tools/set_location.py (re-fetched on demand)
+tools/.cache/
+
+# Local files
+.claude/
+Thumbs.db
+.DS_Store
+__pycache__/
